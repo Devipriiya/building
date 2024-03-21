@@ -10,6 +10,14 @@ if(isset($_POST['submit'])){
   $sql="INSERT INTO events(ID,type,date,time,no) VALUES ('$ID','$type','$date','$time','$no')";
   $data = mysqli_query($conn,$sql);
 
+
+
+
+
+
+
+
+//   echogit
   if($data)
   {
     echo "Data inserted sucessfully";
